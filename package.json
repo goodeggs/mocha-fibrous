@@ -1,0 +1,32 @@
+{
+  "name": "mocha-fibrous",
+  "version": "0.0.0",
+  "description": "Wraps mocha blocks in fibers by default",
+  "author": "Good Eggs <open-source@goodeggs.com>",
+  "contributors": [
+    "Adam Hull <adam@hmlad.com>"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/mocha-fibrous.git"
+  },
+  "homepage": "https://github.com/goodeggs/mocha-fibrous",
+  "bugs": "https://github.com/goodeggs/mocha-fibrous/issues",
+  "peerDependencies": {
+    "fibrous": "^0.3.0",
+    "mocha": "^1.0.0"
+  },
+  "devDependencies": {
+    "fibrous": "^0.3.3",
+    "mocha": "^1.20.1",
+    "coffee-script": ">=1.7.x"
+  },
+  "scripts": {
+    "compile": "coffee --bare --compile --output lib/ src/",
+    "build": "npm run compile",
+    "test": "mocha",
+    "pretest": "npm run build"
+  }
+}
