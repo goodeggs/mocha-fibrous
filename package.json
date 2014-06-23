@@ -1,6 +1,6 @@
 {
   "name": "mocha-fibrous",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Wraps mocha blocks in fibers by default",
   "author": "Good Eggs <open-source@goodeggs.com>",
   "contributors": [
