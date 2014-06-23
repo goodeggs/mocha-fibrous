@@ -1,9 +1,4 @@
-# Mocha Fibrous
-[![NPM version](https://badge.fury.io/js/mocha-fibrous.png)](http://badge.fury.io/js/mocha-fibrous)
-
-
-
-[![Build Status](https://travis-ci.org/goodeggs/mocha-fibrous.png)](https://travis-ci.org/goodeggs/mocha-fibrous)
+# Mocha Fibrous [![NPM version](https://badge.fury.io/js/mocha-fibrous.png)](http://badge.fury.io/js/mocha-fibrous) [![Build Status](https://travis-ci.org/goodeggs/mocha-fibrous.png)](https://travis-ci.org/goodeggs/mocha-fibrous)
 
 
 Wraps mocha blocks in fibers.
