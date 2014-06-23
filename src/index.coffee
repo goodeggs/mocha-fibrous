@@ -9,4 +9,6 @@ fibrous = require 'fibrous'
 ].forEach (mochaFn) ->
   fnWithoutFibrous = global[mochaFn]
   global[mochaFn] = (args..., fn) ->
-    fnWithoutFibrous args..., fibrous(fn)
+    unless fn?.length
+      fn = fibrous(fn)
+    fnWithoutFibrous args..., fn
